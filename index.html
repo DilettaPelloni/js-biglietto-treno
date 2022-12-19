@@ -4,10 +4,44 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- FONT -->
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+
+        <!-- FONTAWESOME -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/style.css">
+
         <title>Biglietto del treno: calcolo del prezzo</title>
     </head>
     <body>
         
+        <header>
+            <div class="container">
+                <h1>Calcola il prezzo del tuo biglietto</h1>
+            </div>
+        </header>
+
+        <main>
+            <div class="container">
+                <h3>Ecco il prezzo del tuo biglietto:</h3>
+                <div id="price-box">
+                    <i class="fa-solid fa-circle-right fa-4x"></i>
+                    <span id="finalPriceLog"></span>
+                    <i class="fa-solid fa-circle-left fa-4x"></i>
+                </div>
+            </div>
+        </main>
+
+        <div class="divider"></div>
+
+        <footer>
+            <div class="container">
+                <p class="small">Calcolatore prezzi&copy; 2022</p>
+            </div>
+        </footer>
 
         <!-- JS -->
         <script type="text/javascript" src="js/scripts.js"></script>
