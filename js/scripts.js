@@ -35,7 +35,7 @@ else {
         finalPrice = fullPrice - (fullPrice * 20 / 100);
     }
 
-    // arrotondare il prezzo finale
+    // arrotondare il prezzo finale (pro-memoria: il numero diventa una stringa)
     finalPrice = finalPrice.toFixed(2);
 
     // mostrare il prezzo finale
